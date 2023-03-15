@@ -3,9 +3,11 @@ Pipeline for Gene-Drug association for CCLE cancer cell line pharmacogenomic dat
 
 Identify significant gene-drug association for an interested gene list with gene cnv, gene expression, drug response and dependency data, and box plot of drug/dep for cnv-status/gene-expression for the interested genes.
 
-Updated August 15th, 2019
+Updated 2023
 
 @Copyright Zi-Ming Zhao ziming.gt@gmail.com
+
+Related publication: Woo, X.Y., Giordano, J., Srivastava, A., Zhao, Z-M., et al. Conservation of copy number profiles during engraftment and passaging of patient-derived cancer xenografts. Nat Genet 53, 86–99 (2021). https://doi.org/10.1038/s41588-020-00750-6
 
 ## Overall summary:
 The pipeline is evaluating the drug effects of selected gene’s CNA changes by using the CCLE cell line genomic and drug data (CTRP v2) [Viswanathan et al. (Nature, 2017); Adams et al. (ACS Chem Biol, 2014)]. The CCLE drug response data were downloaded from Cancer Therapeutics Response Portal (www.broadinstitute.org/ctrp), and CCLE gene-level CNA and gene expression data from depMap data portal (‘public_19Q1_gene_cn.csv’ and ‘CCLE_depMap_19Q1_TPM.csv’ https://depmap.org/portal/download/) [citations:
